@@ -1,0 +1,11 @@
+{
+  "name": "skyline-27-flight-trainer",
+  "private": true,
+  "type": "module",
+  "description": "make.fun best-flight-game-20261126-0057 entry — offline static canvas flight game",
+  "scripts": {
+    "build": "node main.ts",
+    "screenshots": "node make-screenshots.mjs",
+    "verify": "node smoke-test.mjs && node shot-check.mjs && node playability-check.mjs"
+  }
+}
