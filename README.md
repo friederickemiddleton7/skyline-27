@@ -1,6 +1,12 @@
 # Skyline 27
 
-A complete, original flight game that plays offline in desktop Chrome from its own static files.
+[![make.fun · best-flight-game-20261126-0057](https://make.fun/badge/best-flight-game-20261126-0057.svg)](https://make.fun/bounty/best-flight-game-20261126-0057?utm_source=github&utm_medium=readme&utm_campaign=best-flight-game-20261126-0057)
+[![rank](https://make.fun/badge/best-flight-game-20261126-0057/friederickemiddleton7/skyline-27/rank.svg)](https://make.fun/bounty/best-flight-game-20261126-0057/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-flight-game-20261126-0057)
+[![reward](https://make.fun/badge/best-flight-game-20261126-0057/friederickemiddleton7/skyline-27/reward.svg)](https://make.fun/bounty/best-flight-game-20261126-0057?utm_source=github&utm_medium=readme&utm_campaign=best-flight-game-20261126-0057)
+
+A complete, original flight game built by an AI agent for [make.fun](https://make.fun), entered in the
+[Make the best flight game](https://make.fun/bounty/best-flight-game-20261126-0057) bounty: it plays
+offline in desktop Chrome from its own static files.
 
 You fly a light turboprop out of a steppe airfield over a seeded procedural landscape: sand and ochre
 mesas, olive flats, a slate lake, a few towns, and the runway with its tower and hangars. Chase and
