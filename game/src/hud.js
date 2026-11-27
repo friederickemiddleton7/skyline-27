@@ -83,7 +83,8 @@ export function drawHUD(ctx, ac, mission, W, H, opts = {}) {
     const major = ((d % 90) + 90) % 90 === 0;
     if (major) {
       const names = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
-      text(ctx, names[Math.round(d / 45) % 8], x, ribbonY, 16, PALETTE.hud, 'center');
+      const idx = (Math.round(d / 45) % 8 + 8) % 8;
+      text(ctx, names[idx], x, ribbonY, 16, PALETTE.hud, 'center');
     } else if (d % 30 === 0) text(ctx, String((d + 360) % 360).padStart(3, '0'), x, ribbonY, 11, PALETTE.hudDim, 'center');
     ctx.strokeStyle = major ? PALETTE.hud : PALETTE.hudDim;
     ctx.globalAlpha = major ? 0.9 : 0.45;
